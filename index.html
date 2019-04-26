@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>the wonderful Love Buzz</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./lb-styles.css">
+    <meta name="keywords"
+        content="food, pizza, delivery, pub, bar, montrose, late night, beer, cocktails, 90s, nostalgia">
+    <meta name="description" content="The Wonderful Love Buzz Pizza Pub located in Montrose Houston Texas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Oh hello, why are you here? Did you see this great site and wonder who made it? Well, I did. Do you need a website? Or are you looking for a front-end web dev? Hmu. amreign@gmail.com -->
+</head>
+
+<body>
+
+    <div class="contatiner-fluid no-padding">
+        <img src="images/checker.svg" class="checker">
+    </div>
+
+    <div class="contatiner-fluid blk-bg blk-div">
+    </div>
+
+    <div class="row blk-bg order-now">
+        <center>
+            <a href="https://www.ubereats.com/en-US/houston/food-delivery/love-buzz-pizza-pub/xt5Q8oivRKi28n-UEdEElQ/"
+                target="_blank"><img src="images/ubereats.svg" class="order"></a>
+            <a href="https://postmates.com/merchant/love-buzz-houston" target="_blank"><img src="images/postmates.svg"
+                    class="order"></a>
+            <a href="https://www.doordash.com/store/love-buzz-houston-145175/" target="_blank"><img
+                    src="images/doordash.svg" class="order"></a>
+            <a
+                href="https://slicelife.com/restaurants/tx/houston/77006/love-buzz/menu?utm_campaign=order_now_button&amp;utm_medium=referral&amp;utm_source=lovebuzzmenu.com">
+                <img src="https://slicelife.com/images/order-now-horizontal.png" height="58" width="264" class="slice">
+            </a>
+        </center>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <center><img src="images/lb-logo.png" class="img-fluid" id="logo"></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="padding-bottom: 3vw;">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h1>Welcome to Love Buzz Pizza Pub.</h1>
+                <h1>We’re located in Houston, Tx and proudly serving slices & vices until 2am.</h1>
+                <h1>Delivery available through one of our partners above or call 713-521-BUZZ for pickup.</h1>
+                </h1>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="contatiner-fluid blk-bg blk-div">
+    </div>
+
+    <div class="menu-bg">
+        <div class="container">
+            <div class="row menu-padding">
+                <div class="tab">
+
+                    <button class="tablinks" onclick="openItem(event, 'Pizza')" id="defaultOpen">PIZZA</button>
+                    <button class="tablinks" onclick="openItem(event, 'Munchies')">MUNCHIES & GREENERY</button>
+                    <button class="tablinks" onclick="openItem(event, 'Sammiches')">SAMMICHES & SWEETS</button>
+                </div>
+
+                <div id="Pizza" class="tabcontent">
+
+                    <div class="row">
+                        <h4 id="menu-subhead" style="padding-left: 30px;">OUR PIES</h4>
+                        <p style="padding-left: 30px;"><em>12 or 16 inches in diameter</em></p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2>Quattro Fourcheesio $15/20</h2>
+                        <p>mozzarella, provolone, romano, and herbed ricotta</p>
+
+                        <h2>The Hamburglar $17/22</h2>
+                        <p>ground beef, cheese, bacon, onions, pickles, with a swirl of mustard on a Sesame seed crust
+                        </p>
+
+                        <h2>The Supreme Team $18/23</h2>
+                        <p>bacon, pepperoni, Italian sausage, ground beef, Canadian bacon, black & green olives, bell
+                            peppers, onions, shrooms, and roasted pepperoncini</p>
+
+                        <h2>Wake and Bake $8/23</h2>
+                        <p>bacon, cheddar, mozzarella, crispy hash browns, sunny-side up eggs, green onions, fresh
+                            cracked black pepper, and Alredope sauce</p>
+
+                        <h2>Buddah Lovers Only $16/21</h2>
+                        <p>olive oil, mozzarella, fresh spinach, roasted garlic, shrooms, onions, black & green olives,
+                            bell peppers, and Roma tomatoes</p>
+
+                        <h2>The Montrosaurus Rex $18/23</h2>
+                        <p>pepperoni, mozzarella, real bacon, salami, Canadian bacon, Italian sausage, and roasted
+                            pepperoncini</p>
+
+                        <h2>MF Shrooms $15/20</h2>
+                        <p>a few fat grams of shrooms, roasted garlic, mozzarella, herbed ricotta, and olive oil</p>
+
+                        <h2>Kona Gold $17/22</h2>
+                        <p>fresh pineapple, bacon, mozzarella, pepperoni, and our pickled jalapeños</p>
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <h2>Spittin’ Venom $18/23</h2>
+                        <p>fresh jalapeños, fresh habañeros, roasted chicken, bacon, provolone, Chipotlé honey, and a
+                            squeeze of lemon</p>
+
+                        <h2>Stankonia $17/22</h2>
+                        <p>anchovies, mozzarella, roasted garlic, Chevré, and caramelized onions</p>
+
+                        <h2>3 In Da' Mornin $16/21</h2>
+                        <p>bacon, caramelized onions, goat cheese, roasted garlic, Chipotlé honey</p>
+
+                        <h2>Kushmaster $15/20</h2>
+                        <p>fresh mozzarella, provolone, olive oil, a swirl of marinara, fresh basil, and romano</p>
+
+                        <h2>Mother Clucker $17/22</h2>
+                        <p>Alfredope sauce, roasted chicken, roasted red peppers, bacon, green onions</p>
+
+                        <h2>Bacontomatonator $17/22</h2>
+                        <p>mozzarella, provolone, tomato, bacon, fresh basil, cracked pepper, and a swirl of balsamic
+                            reduction</p>
+
+                        <h2>No Way Dude! $18/23</h2>
+                        <p>Impossible Beef, goat cheese, and caramelized onions</p>
+                        
+                        <h2>Queen Marge Bouvier $15/20</h2>
+                        <p>olive oil, Roma tomato, fresh mozzarella, romano, and fresh basil</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h2>DIY $12/16</h2>
+                        <h3>Dank Toppings</h3>
+                        <p>pepperoni, Italian sausage, bell peppers, fresh jalapeños, house-pickled jalapeños, red onions, ground beef, shrooms, black olives, green olives, provolone, roasted garlic,
+                            Canadian bacon, roasted chicken, cheddar, fresh basil <strong>$1.5/2</strong></p>
+
+                        <h3>Extra Dank Toppings</h3>
+                        <p>caramelized onions, herbed ricotta, anchovies, roasted pepperoncinis, mortadella, salami,
+                            fresh spinach, fresh Habañeros, gabagool, fresh mozzarella, fresh pineapple, Chevré, real
+                            bacon, roasted red peppers, Chipotlé honey <strong>$2/2.5</strong></p>
+                        <p>Sunny-side eggs <strong>$1 ea / 6 max</strong></p>
+                        <p>House-made meatballs <strong>$4/6</strong></p>
+                        <p>Impossible Beef <strong>$2.5/3</strong></p>
+                    </div>
+                </div>
+
+                <div id="Munchies" class="tabcontent">
+
+                    <div class="col-md-4">
+                        <h4 id="menu-subhead">MUNCHIES</h4>
+                        <h2>Heady Bread $3</h2>
+                        <p>toasty, buttered, and garlicked</p>
+
+                        <h2>Cheez-ee Bread $5</h2>
+                        <p>melted mozzarella, Provolone, and Romano.<br>
+                            Add any toppings for <strong>$1</strong> - <em>Maximum 4</em></p>
+
+                        <h2>Cheeze Blunts 5 for $7 / 10 for $13</h2>
+                        <p>Ooey, gooey, hand-rolled, crispy, mozzarella sticks</p>
+
+
+                        <h2>Gnarlic Gnots $5</h2>
+                        <p>toasted, golden pillows of doughy goodness. Doused in Gnarlic butter and blessed with Romano
+                        </p>
+
+                        <p><em>All served with Marinara</em></p>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 id="menu-subhead">GREENERY</h4>
+                        <h2>Homemade Caesar $4 / $8</h2>
+
+                        <h2>House Salad $4 / $8</h2>
+                        <p>with Vinaigrette or Ranch</p>
+                        <p><em>add Roasted Chicken to either salad <strong>$6</strong></em></p>
+                        <br>
+
+
+                        <h4 id="menu-subhead">NICE SLICES</h4>
+                        <h2>Cheese $3</h2>
+
+                        <h2>Pepperoni $3.75</h2>
+
+                        <h2>Secret Slice <em>$ecret Price</em></h2>
+
+                        <h2>El Jefe Slice <em>$5 Cheese / $5.75 Pepperoni</em></h2>
+
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 id="menu-subhead">SIDE PIECES</h4>
+                        <h2>Cool Ranch $1.5</h2>
+                        <h2>Marinara $1.5</h2>
+                        <h2>Chipotle Hot Honey $2</h2>
+                        <h2>Balsamic Glaze $2.5</h2>
+                        <h2>XXXL Ranch $5</h2>
+                    </div>
+
+                </div>
+
+                <div id="Sammiches" class="tabcontent">
+
+                    <div class="col-md-4">
+                        <h4 id="menu-subhead">SAMMICHES</h4>
+                        <p><em>All served on a toasty, fresh roll with chips</em></p>
+
+                        <h2>Meatball Deluxe $12</h2>
+                        <p>home-made meatballs, melted mozzarella and provolone, smothered with marinara, blessed with
+                            parmesan</p>
+
+                        <h2>The Bird is the Word $10</h2>
+                        <p>Roasted chicken, provolone, pepperoncini peppers, raosted red peppers, vinaigrette, and a side of ranch. Served warm</p>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 id="menu-subhead">SWEETS</h4>
+                        <h2>Cannoli 2 for $5 / 5 for $10</h2>
+                        <p>loaded with whipped ricotta, pistachios, orange marmalade, and chocolate chips</p>
+
+                        <h2>Ice Cream Float $7</h2>
+                        <p>Root Beer, Coca-Cola, or Dr Pepper</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 id="menu-subhead">GLASS BOTTLE SODAS</h4>
+                        <h2>Mexican Coke $3.25</h2>
+                        <h2>Sprite $3.25</h2>
+                        <h2>Dublin DP $3.25</h2>
+                        <h2>Topo Chico $3.25</h2>
+                        <h2>Diet Coke $3.25</h2>
+                        <h2>Rotating Root Beer $3.75</h2>
+                        <h2>JOLT 16oz. (can) $8</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contatiner-fluid blk-bg blk-div">
+    </div>
+
+    <div class="container-fluid pizza-desk">
+    </div>
+
+    <div class="container-fluid pizza-mobile">
+    </div>
+
+    <div class="blk-bg">
+        <div class="container">
+            <div class="row contact-padding">
+                <div class="col-md-4">
+                    <h4>Location</h4>
+                    <p id="info">408 Westheimer Rd</p>
+                    <p id="info">Houston, Texas 77006</p>
+                    <br />
+                </div>
+                <div class="col-md-4">
+                    <h4>Hours</h4>
+                    <p id="info">Monday–Friday 4pm–2am</p>
+                    <p id="info">Saturday–Sunday 2pm–2am</p>
+                    <br />
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <p id="info">(713) 521-2899</p>
+                    <a href="mailto:kinglovebuzz@gmail.com">
+                        <p id="info">kinglovebuzz@gmail.com</p>
+                    </a>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contaier-fluid map-desk">
+        <a href="https://goo.gl/maps/dbmFU3AqGZR2" target="blank"><img src="images/lovebuzz_map.png" class="map"></a>
+    </div>
+
+    <div class="contaier-fluid map-mobile">
+        <a href="https://goo.gl/maps/dbmFU3AqGZR2" target="blank"><img src="images/lovebuzz_map_mobile.png"
+                class="map"></a>
+    </div>
+
+    <div class="contatiner-fluid blk-bg blk-div">
+    </div>
+
+    <div class="container">
+        <div class="row social-links">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 social-icons">
+                <a href="https://www.facebook.com/lovebuzzhouston" target="blank"><img class="social"
+                        src="images/fb.svg" /></a>
+                <a href="https://www.instagram.com/lovebuzzmontrose/" target="blank"><img class="social"
+                        src="images/ig.svg" /></a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 copyright">
+                <h5>© 2018 Love Buzz Pizza Pub</h5>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <div class="contatiner-fluid blk-bg blk-div">
+    </div>
+
+    <div class="container-fluid no-padding">
+        <img src="images/checker.svg" class="checker">
+    </div>
+
+    <script>
+        function openItem(evt, itemName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("active");
+            }
+            document.getElementById(itemName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+
+</html>
